@@ -3,11 +3,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsu.comp152.EventHandler">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsu.comp152.FXEventHandler">
    <children>
       <VBox layoutX="7.0" layoutY="7.0" prefHeight="392.0" prefWidth="592.0">
          <children>
-            <Button fx:id="b" mnemonicParsing="false" text="Button" />
+            <Button fx:id="b" mnemonicParsing="false" onAction="#buttonPressed" text="Button" />
             <TextField fx:id="display" />
             <TextArea fx:id="text" prefHeight="183.0" prefWidth="592.0" />
          </children>
